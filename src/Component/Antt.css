@@ -1,0 +1,45 @@
+*{  
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.App {
+    
+    background-color: #fffefe;
+    margin: 7% auto ;
+    border: 4rem hidden #fcfcfc;
+    border-radius:2%;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+    max-width: 60rem;
+  
+    
+  }
+
+  .Bg{
+    display: flex;
+    width: 100wv;
+    height: 100vh;
+    background-image: url('gamess.jpg');
+    background-size:cover;
+    
+    
+    
+  }
+  .ant-table-cell{
+    text-align: center;
+  }
+
+  :where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper .ant-table-thead >tr>th{
+    background: #d7562b;
+    color: rgb(255 255 255 / 88%);
+  }
+
+.Buttons{
+    text-align: center;
+
+}
